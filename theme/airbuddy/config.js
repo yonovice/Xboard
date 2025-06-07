@@ -357,7 +357,7 @@ window.CONFIG = {
 
     // 充值模块配置
     recharge: {
-        switch: true, // 是否启用余额充值功能，请确保后端服务支持此功能
+        switch: false, // 是否启用余额充值功能，请确保后端服务支持此功能
         // 充值金额预设选项，请在面板后台 - 系统设置 - 充值奖励中保持一致，才能确保充值奖励生效
         preset: ['30', '50', '100:20', '200:50', '300:100', '500:200'],
         customInput: true, // 是否允许用户自定义输入充值金额
@@ -368,7 +368,7 @@ window.CONFIG = {
 
     // 礼品卡模块配置
     giftCard: {
-        switch: true, // 是否启用礼品卡功能，请确保后端服务支持此功能
+        switch: false, // 是否启用礼品卡功能，请确保后端服务支持此功能
         elementImg: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-gift.lvwkl3813.webp'
     },
 

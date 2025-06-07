@@ -11,7 +11,7 @@
 window.CONFIG = {
     // 通用配置
     logo: 'https://github.com/dc8683/picx-images-hosting/raw/master/Air-Rocket-T-LOGO@1x.2vewwvqwbf.webp', // 网站logo
-    title: "AirRocket", // 网站标题.
+    title: "布丁云", // 网站标题.
 
     // 主题配置
     theme: {
@@ -65,8 +65,8 @@ window.CONFIG = {
             language: true, // 是否显示语言切换
             theme: true, // 是否显示主题模式切换
             user: true, // 是否显示用户按钮，包含个人中心、退出登录等
-            giftCard: true, // 是否显示礼品卡按钮，请确保 giftCard 模块的 switch 为 true，以及后端支持礼品卡功能
-            couponExchange: true, // 是否显示优惠券兑换按钮，建议和礼品卡不要同时使用，容易造成歧义
+            giftCard: false, // 是否显示礼品卡按钮，请确保 giftCard 模块的 switch 为 true，以及后端支持礼品卡功能
+            couponExchange: false, // 是否显示优惠券兑换按钮，建议和礼品卡不要同时使用，容易造成歧义
         },
         // common 布局下的 siderbar 侧边栏配置
         siderbar: {
@@ -154,7 +154,7 @@ window.CONFIG = {
         backgroundMode: 'img', // 背景模式: earth 地球动画，img 图片，none 无背景；earth 地球动画请配置 home.poster.xx
         backgroundImage: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Fluid-gradient-background.1e8s2bjtsj.webp', // 背景图片，如果背景模式为 img，则使用此图片
 
-        inviteCodeEdit: true, // 是否允许用户修改邀请码, true 可以，false 不可以
+        inviteCodeEdit: false, // 是否允许用户修改邀请码, true 可以，false 不可以
         inviteDisplay: true, // 是否显示邀请码输入框，true 显示，false 不显示
         confirmPassword: true, // 是否显示确认密码输入框，true 显示，false 不显示
     },
@@ -169,22 +169,22 @@ window.CONFIG = {
         downloadNow: true, // 点击卡片时是否马上下载客户端
         windows: {
             id: 1,
-            downloadLink: 'https://code.visualstudio.com/sha/download?build=stable&os=darwin-arm64', // Windows 客户端下载链接
-            docLink: "https://www.microsoft.com/en-us/edge/mac?form=MA13FJ",
+            downloadLink: '', // Windows 客户端下载链接
+            docLink: "",
         },
         mac: {
             id: 2,
-            downloadLink: 'https://apps.apple.com/cn/app/ultra-vpn-vpn-and-wifi-proxy/id6452726154?mt=12', // macOS 客户端下载链接
-            docLink: 'https://www.apple.com/macos/macos-sequoia/',
+            downloadLink: '', // macOS 客户端下载链接
+            docLink: '',
         },
         ios: {
             id: 4,
-            downloadLink: 'https://apple.com', // iOS 客户端下载链接
+            downloadLink: '', // iOS 客户端下载链接
             docLink: undefined,
         },
         android: {
             id: 3,
-            downloadLink: 'https://google.com', // Android 客户端下载链接
+            downloadLink: '', // Android 客户端下载链接
             docLink: undefined,
         },
         //  Home 页面中的客户端 mockup 图片
@@ -227,7 +227,7 @@ window.CONFIG = {
     order: {
         payPendingImg: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-order.2vex42nyi6.webp',
         overrideConfirm: true, // 用户在变更套餐时是否要弹窗二次确认
-        payUrlDisplay: true, // 是否显示支付链接，true 显示，false 不显示
+        payUrlDisplay: false, // 是否显示支付链接，true 显示，false 不显示
     },
 
     // 邀请配置
@@ -265,16 +265,16 @@ window.CONFIG = {
             // 特色公告预设，可以将对象传入，优先级：公告接口数据 > 预设数据
             presets: [
                 // 面向所有用户的弹窗
-                {
-                    toUser: 'everyone',
-                    code: 'HappyNewYear',
-                    title: 'EveryOne\n收下这份礼物吧！',
-                    cardComponent: 'BagDrawer',
-                    countdown: {
-                        startTime: new Date('2025-04-25').getTime(),
-                        effectiveTime: 48
-                    }
-                },
+                // {
+                //     toUser: 'everyone',
+                //     code: 'HappyNewYear',
+                //     title: 'EveryOne\n收下这份礼物吧！',
+                //     cardComponent: 'BagDrawer',
+                //     countdown: {
+                //         startTime: new Date('2025-04-25').getTime(),
+                //         effectiveTime: 48
+                //     }
+                // },
                 // 面向新用户的弹窗
                 {
                     toUser: 'newUser',

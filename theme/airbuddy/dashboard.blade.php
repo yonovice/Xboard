@@ -47,16 +47,16 @@
       window.CONFIG.theme.mode = '{{$theme_config['theme_mode']}}'
       window.CONFIG.page.layout = '{{$theme_config['layout']}}';
     </script>
-    <meta name="version" content="0.0.0-5e6364e3" />
+    <meta name="version" content="0.0.0-15dab879" />
     <script
       type="module"
       crossorigin=""
-      src="/theme/{{$theme}}/assets/index-Cl98UmfH.js"
+      src="/theme/{{$theme}}/assets/index-D4NUnd-R.js"
     ></script>
     <link
       rel="stylesheet"
       crossorigin=""
-      href="/theme/{{$theme}}/assets/BhOH5b9a.css"
+      href="/theme/{{$theme}}/assets/RmsxykWi.css"
     />
   </head>
   <body>

@@ -1,0 +1,158 @@
+{
+    "name": "ModernBoard Pro",
+    "description": "基于AirBuddy设计语言的现代化主题，提供精致的用户界面和流畅的交互体验",
+    "version": "2.0.0",
+    "author": "ModernBoard Team",
+    "preview": "/theme/ModernBoard/preview.jpg",
+    "images": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=400&fit=crop",
+    "configs": [
+        {
+            "field_name": "primary_color",
+            "field_type": "input",
+            "field_label": "主色调",
+            "field_description": "主要品牌色彩，用于按钮、链接等关键元素",
+            "field_default": "#667eea"
+        },
+        {
+            "field_name": "secondary_color",
+            "field_type": "input",
+            "field_label": "次要色调",
+            "field_description": "次要色彩，用于渐变和强调元素",
+            "field_default": "#764ba2"
+        },
+        {
+            "field_name": "theme_mode",
+            "field_type": "select",
+            "field_label": "主题模式",
+            "field_description": "选择界面的颜色主题",
+            "field_default": "auto",
+            "field_options": {
+                "auto": "自动切换",
+                "light": "浅色模式",
+                "dark": "深色模式"
+            }
+        },
+        {
+            "field_name": "layout_style",
+            "field_type": "select",
+            "field_label": "布局风格",
+            "field_description": "选择整体的界面布局风格",
+            "field_default": "modern",
+            "field_options": {
+                "modern": "现代风格",
+                "compact": "紧凑布局",
+                "spacious": "宽松布局"
+            }
+        },
+        {
+            "field_name": "navbar_style",
+            "field_type": "select",
+            "field_label": "导航栏样式",
+            "field_description": "选择顶部导航栏的视觉效果",
+            "field_default": "glass",
+            "field_options": {
+                "glass": "毛玻璃效果",
+                "solid": "实心背景",
+                "transparent": "透明样式"
+            }
+        },
+        {
+            "field_name": "enable_shadows",
+            "field_type": "select",
+            "field_label": "阴影效果",
+            "field_description": "是否启用界面元素的阴影效果",
+            "field_default": "true",
+            "field_options": {
+                "true": "启用阴影",
+                "false": "禁用阴影"
+            }
+        },
+        {
+            "field_name": "enable_animations",
+            "field_type": "select",
+            "field_label": "动画效果",
+            "field_description": "是否启用界面的过渡动画",
+            "field_default": "true",
+            "field_options": {
+                "true": "启用动画",
+                "false": "禁用动画"
+            }
+        },
+        {
+            "field_name": "background_image",
+            "field_type": "input",
+            "field_label": "背景图片",
+            "field_description": "自定义页面背景图片URL（可选）",
+            "field_default": ""
+        },
+        {
+            "field_name": "brand_logo",
+            "field_type": "input",
+            "field_label": "品牌Logo",
+            "field_description": "自定义品牌Logo图片URL（可选）",
+            "field_default": ""
+        },
+        {
+            "field_name": "accent_color",
+            "field_type": "input",
+            "field_label": "强调色",
+            "field_description": "用于状态指示和特殊标记的颜色",
+            "field_default": "#f59e0b"
+        },
+        {
+            "field_name": "border_radius",
+            "field_type": "select",
+            "field_label": "圆角大小",
+            "field_description": "界面元素的圆角程度",
+            "field_default": "medium",
+            "field_options": {
+                "small": "小圆角",
+                "medium": "中等圆角",
+                "large": "大圆角"
+            }
+        },
+        {
+            "field_name": "sidebar_position",
+            "field_type": "select",
+            "field_label": "侧边栏位置",
+            "field_description": "移动端侧边栏的显示位置",
+            "field_default": "left",
+            "field_options": {
+                "left": "左侧",
+                "right": "右侧"
+            }
+        },
+        {
+            "field_name": "enable_fab",
+            "field_type": "select",
+            "field_label": "浮动按钮",
+            "field_description": "是否显示右下角的浮动操作按钮",
+            "field_default": "true",
+            "field_options": {
+                "true": "显示",
+                "false": "隐藏"
+            }
+        },
+        {
+            "field_name": "custom_css",
+            "field_type": "textarea",
+            "field_label": "自定义CSS",
+            "field_description": "添加自定义CSS样式代码，用于个性化定制",
+            "field_default": ""
+        },
+        {
+            "field_name": "custom_js",
+            "field_type": "textarea",
+            "field_label": "自定义JavaScript",
+            "field_description": "添加自定义JavaScript代码，扩展功能",
+            "field_default": ""
+        },
+        {
+            "field_name": "footer_html",
+            "field_type": "textarea",
+            "field_label": "页脚HTML",
+            "field_description": "自定义页脚内容，支持HTML代码",
+            "field_default": ""
+        }
+    ]
+} 

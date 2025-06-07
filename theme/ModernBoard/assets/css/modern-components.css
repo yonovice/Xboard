@@ -1,0 +1,641 @@
+/**
+ * ModernBoard Pro - 组件库 (完全重构)
+ * 精确复制AirBuddy的设计风格
+ * Version 3.0 - 真正的AirBuddy风格
+ */
+
+/* ===========================================
+   主容器 - 精确复制AirBuddy的渐变背景
+=========================================== */
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, 
+    #4facfe 0%, 
+    #00f2fe 25%, 
+    #43e97b 50%, 
+    #38f9d7 75%, 
+    #00f2fe 100%
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 20s ease-in-out infinite;
+  position: relative;
+  overflow-x: hidden;
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  25% { background-position: 100% 50%; }
+  50% { background-position: 0% 100%; }
+  75% { background-position: 100% 0%; }
+}
+
+/* 主内容区域 */
+.main-content {
+  flex: 1;
+  padding: var(--space-8) var(--space-6);
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* ===========================================
+   Hero用户卡片 - 完全复制AirBuddy主卡片
+=========================================== */
+.hero-user-card {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 24px;
+  padding: var(--space-10);
+  margin-bottom: var(--space-8);
+  box-shadow: 
+    0 8px 32px rgba(31, 38, 135, 0.37),
+    0 4px 16px rgba(31, 38, 135, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  position: relative;
+  overflow: hidden;
+  transition: all var(--duration-300) var(--ease-out);
+}
+
+.hero-user-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.1) 0%, 
+    transparent 50%, 
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.hero-header {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-6);
+  position: relative;
+  z-index: 2;
+}
+
+.hero-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: var(--text-2xl);
+  font-weight: var(--font-bold);
+  box-shadow: 
+    0 8px 24px rgba(102, 126, 234, 0.4),
+    0 2px 8px rgba(102, 126, 234, 0.3);
+  flex-shrink: 0;
+}
+
+.hero-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.hero-greeting {
+  font-size: var(--text-xl);
+  font-weight: var(--font-medium);
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: var(--space-2);
+}
+
+.hero-plan {
+  font-size: var(--text-3xl);
+  font-weight: var(--font-extrabold);
+  color: white;
+  margin-bottom: var(--space-6);
+  letter-spacing: -0.02em;
+}
+
+.hero-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: var(--space-4);
+  font-size: var(--text-sm);
+}
+
+.meta-item {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: var(--space-4);
+  text-align: center;
+}
+
+.meta-label {
+  display: block;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: var(--text-xs);
+  margin-bottom: var(--space-2);
+  font-weight: var(--font-medium);
+}
+
+.meta-value {
+  display: block;
+  font-weight: var(--font-bold);
+  color: white;
+  font-size: var(--text-base);
+}
+
+.hero-balance {
+  text-align: right;
+  position: relative;
+  z-index: 2;
+  flex-shrink: 0;
+}
+
+.balance-label {
+  font-size: var(--text-base);
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: var(--space-2);
+  font-weight: var(--font-medium);
+}
+
+.balance-amount {
+  font-size: var(--text-4xl);
+  font-weight: var(--font-extrabold);
+  color: white;
+  margin-bottom: var(--space-4);
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  gap: var(--space-1);
+}
+
+.balance-currency {
+  font-size: var(--text-xl);
+  opacity: 0.9;
+}
+
+.recharge-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: var(--space-3) var(--space-6);
+  border-radius: 16px;
+  font-size: var(--text-base);
+  font-weight: var(--font-semibold);
+  cursor: pointer;
+  transition: all var(--duration-200) var(--ease-out);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.recharge-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+/* ===========================================
+   平台客户端卡片 - 精确复制AirBuddy的4个卡片
+=========================================== */
+.platforms-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-6);
+  margin-bottom: var(--space-8);
+}
+
+.platform-card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  padding: var(--space-8);
+  text-align: center;
+  transition: all var(--duration-300) var(--ease-out);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 
+    0 8px 32px rgba(31, 38, 135, 0.37),
+    0 4px 16px rgba(31, 38, 135, 0.2);
+}
+
+.platform-card:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 
+    0 20px 60px rgba(31, 38, 135, 0.4),
+    0 8px 24px rgba(31, 38, 135, 0.3);
+}
+
+.platform-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: var(--space-4);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  transition: all var(--duration-200) var(--ease-out);
+  box-shadow: 
+    0 8px 24px rgba(0, 0, 0, 0.1),
+    0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* 平台特定颜色 - 复制AirBuddy的配色 */
+.platform-card.windows .platform-icon {
+  background: linear-gradient(135deg, #0078d4 0%, #106ebe 100%);
+  box-shadow: 0 8px 24px rgba(0, 120, 212, 0.4);
+}
+
+.platform-card.ios .platform-icon {
+  background: linear-gradient(135deg, #007aff 0%, #5856d6 100%);
+  box-shadow: 0 8px 24px rgba(0, 122, 255, 0.4);
+}
+
+.platform-card.android .platform-icon {
+  background: linear-gradient(135deg, #34a853 0%, #0f9d58 100%);
+  box-shadow: 0 8px 24px rgba(52, 168, 83, 0.4);
+}
+
+.platform-card.macos .platform-icon {
+  background: linear-gradient(135deg, #8e8e93 0%, #636366 100%);
+  box-shadow: 0 8px 24px rgba(142, 142, 147, 0.4);
+}
+
+.platform-title {
+  font-size: var(--text-lg);
+  font-weight: var(--font-bold);
+  color: white;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ===========================================
+   订阅信息卡片 - 简洁设计
+=========================================== */
+.subscription-card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  padding: var(--space-8);
+  margin-bottom: var(--space-8);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 
+    0 8px 32px rgba(31, 38, 135, 0.37),
+    0 4px 16px rgba(31, 38, 135, 0.2);
+}
+
+.subscription-header {
+  margin-bottom: var(--space-6);
+}
+
+.subscription-title {
+  font-size: var(--text-xl);
+  font-weight: var(--font-bold);
+  color: white;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.subscription-url-container {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: var(--space-4);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.subscription-url-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: var(--text-base);
+  font-family: var(--font-mono);
+  outline: none;
+}
+
+.subscription-url-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.url-copy-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: var(--space-2) var(--space-4);
+  border-radius: 12px;
+  font-size: var(--text-sm);
+  font-weight: var(--font-semibold);
+  cursor: pointer;
+  transition: all var(--duration-200) var(--ease-out);
+}
+
+.url-copy-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* ===========================================
+   推广区域 - 复制AirBuddy底部卡片风格
+=========================================== */
+.promotion-section {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  padding: var(--space-10);
+  margin-bottom: var(--space-8);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 
+    0 8px 32px rgba(31, 38, 135, 0.37),
+    0 4px 16px rgba(31, 38, 135, 0.2);
+}
+
+.promotion-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-8);
+}
+
+.promotion-text {
+  flex: 1;
+}
+
+.promotion-title {
+  font-size: var(--text-3xl);
+  font-weight: var(--font-extrabold);
+  color: white;
+  margin-bottom: var(--space-3);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  line-height: 1.2;
+}
+
+.promotion-subtitle {
+  font-size: var(--text-lg);
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: var(--space-6);
+  line-height: var(--leading-relaxed);
+}
+
+.promotion-stats {
+  display: flex;
+  gap: var(--space-8);
+}
+
+.promotion-stat {
+  text-align: left;
+}
+
+.stat-number {
+  font-size: var(--text-2xl);
+  font-weight: var(--font-extrabold);
+  color: white;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin-bottom: var(--space-1);
+}
+
+.stat-label {
+  font-size: var(--text-sm);
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: var(--font-medium);
+}
+
+.promotion-action {
+  flex-shrink: 0;
+}
+
+.promotion-btn {
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  padding: var(--space-4) var(--space-8);
+  border-radius: 16px;
+  font-size: var(--text-lg);
+  font-weight: var(--font-bold);
+  cursor: pointer;
+  transition: all var(--duration-200) var(--ease-out);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  text-decoration: none;
+  display: inline-block;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.promotion-btn:hover {
+  background: rgba(255, 255, 255, 0.35);
+  border-color: rgba(255, 255, 255, 0.6);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(31, 38, 135, 0.4);
+}
+
+/* ===========================================
+   二维码显示 - 精致设计
+=========================================== */
+.qr-code-container {
+  text-align: center;
+  margin-bottom: var(--space-8);
+}
+
+.qr-code-wrapper {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: var(--space-6);
+  display: inline-block;
+  box-shadow: 
+    0 8px 32px rgba(31, 38, 135, 0.2),
+    0 4px 16px rgba(31, 38, 135, 0.1);
+  transition: all var(--duration-300) var(--ease-out);
+}
+
+.qr-code-wrapper:hover {
+  transform: translateY(-4px);
+  box-shadow: 
+    0 16px 48px rgba(31, 38, 135, 0.3),
+    0 8px 24px rgba(31, 38, 135, 0.2);
+}
+
+.qr-code-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 12px;
+  display: block;
+}
+
+.qr-code-caption {
+  font-size: var(--text-base);
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: var(--space-4);
+  font-weight: var(--font-medium);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ===========================================
+   欢迎占位符
+=========================================== */
+.welcome-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+  padding: var(--space-12);
+  animation: fadeInUp var(--duration-1000) var(--ease-out);
+}
+
+.welcome-icon {
+  font-size: 4rem;
+  margin-bottom: var(--space-6);
+  color: white;
+  text-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  animation: float var(--duration-1000) var(--ease-in-out) infinite alternate;
+}
+
+.welcome-placeholder h2 {
+  font-size: var(--text-4xl);
+  font-weight: var(--font-extrabold);
+  color: white;
+  margin-bottom: var(--space-4);
+  text-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.welcome-placeholder p {
+  font-size: var(--text-xl);
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 600px;
+  line-height: var(--leading-relaxed);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ===========================================
+   动画关键帧
+=========================================== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-8px);
+  }
+}
+
+/* ===========================================
+   响应式优化
+=========================================== */
+@media (max-width: 768px) {
+  .hero-header {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--space-6);
+  }
+
+  .hero-balance {
+    text-align: center;
+  }
+
+  .hero-meta {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .platforms-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+
+  .platform-card {
+    padding: var(--space-6);
+  }
+
+  .platform-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+  }
+
+  .promotion-content {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--space-6);
+  }
+
+  .promotion-stats {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-user-card {
+    padding: var(--space-6);
+    border-radius: 16px;
+  }
+
+  .hero-avatar {
+    width: 64px;
+    height: 64px;
+    font-size: var(--text-xl);
+  }
+
+  .hero-plan {
+    font-size: var(--text-2xl);
+  }
+
+  .balance-amount {
+    font-size: var(--text-3xl);
+  }
+
+  .platforms-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .promotion-section {
+    padding: var(--space-6);
+  }
+
+  .promotion-title {
+    font-size: var(--text-2xl);
+  }
+} 

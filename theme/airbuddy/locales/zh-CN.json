@@ -2,7 +2,7 @@
   "auth": {
     "features": {
       "first": {
-        "description": "AirBus 采用高速全中转专线连接，保证网络稳定、高速、毫秒级的响应速度",
+        "description": "布丁云 采用高速全中转专线连接，保证网络稳定、高速、毫秒级的响应速度",
         "title": "高速全中转专线连接"
       },
       "second": {
@@ -19,7 +19,7 @@
       "LoggedIn": "已登录",
       "loginPlease": "请先完成登录"
     },
-    "title": "从这开始连接世界 👏\nAirBus - 畅享全球网络加速"
+    "title": "从这开始连接世界 👏\n布丁云 - 畅享全球网络加速"
   },
   "bill": {
     "balance": "余额支付",
@@ -91,19 +91,19 @@
     "unit": "元"
   },
   "footer": {
-    "copyRight": "© 2025 AirBuddy All Rights Reserved",
+    "copyRight": "© 2025 布丁云 All Rights Reserved",
     "links": {
       "1": {
         "text": "备用站点",
-        "url": "https://baidu.com"
+        "url": "https://budingyun.com"
       },
       "2": {
         "text": "加入 Telegram 频道",
-        "url": "https://t.me/themebuddy"
+        "url": "https://t.me/buding03"
       },
       "3": {
         "text": "联系 Telegram 客服",
-        "url": "https://t.me/themebuddy"
+        "url": "https://t.me/budingyun123"
       }
     }
   },
@@ -227,7 +227,7 @@
         "5": "永不断线",
         "6": "专线加速"
       },
-      "title": "AirRocket\n无限制畅享全球网络加速"
+      "title": "布丁云\n无限制畅享全球网络加速"
     },
     "privacy": {
       "description": "全中转节点，隧道加密，保护您的隐私，安全加密，永不泄露",
@@ -243,7 +243,7 @@
     "service": {
       "button": {
         "text": "联系客服",
-        "url": "https://t.me/themebuddy"
+        "url": "https://t.me/budingyun123"
       },
       "description": "有任何问题，多种联系方式联系，网络工程师随时待命，随传随到，永不失联的 VIP 服务",
       "title": "7x24 小时极速响应客服"
@@ -255,76 +255,40 @@
         "cycle": {
           "1": {
             "features": {
-              "ad": "年付立省 45.68 元",
-              "list": "流量: 每月 100G 流量，每月重置\n设备: 3 台设备同时在线\n带宽: 限速 100Mbps\n线路: 高速节点\n节点: 32 个国家/地区节点",
+              "ad": "年付立省 20.9 元",
+              "list": "流量: 每月 100G 流量，每月重置\n带宽: 限速 200Mbps\n线路: 高速节点",
               "title": "套餐特点"
             },
-            "name": "Basis 高速套餐",
-            "price": "9.99",
+            "name": "新人体验套餐",
+            "price": "5.90",
             "priceTime": "月",
-            "sid": "5"
+            "sid": "3"
           },
           "2": {
             "features": {
-              "ad": "年付立省 57.68 元",
-              "list": "流量: 每月 300G 流量，每月重置\n设备: 6 台设备同时在线\n带宽: 限速 300Mbps\n线路: IEPL 专线节点 + 中继隧道\n节点: 65 个国家/地区节点",
+              "ad": "年付立省 19.8 元",
+              "list": "流量: 每月 300G 流量，每月重置\n带宽: 限速 500Mbps\n线路: 高速节点",
               "title": "套餐特点"
             },
-            "name": "Standard 专业套餐",
-            "price": "19.99",
+            "name": "进阶流媒体版",
+            "price": "9.90",
             "priceTime": "月",
             "sid": "6"
           },
           "3": {
             "features": {
-              "ad": "年付立省 177.68 元",
-              "list": "流量: 每月 1000GB 流量，每月重置\n设备: 不限制设备数量\n带宽: 限速 1000Mbps\n线路: IEPL 专线节点 + 中继隧道 + 企业专线\n节点: 108 个国家/地区节点\n流媒体解锁",
+              "ad": "年付立省 40.8 元",
+              "list": "流量: 每月 500GB 流量，每月重置\n带宽: 不限速\n线路: 高速节点",
               "title": "套餐特点"
             },
-            "name": "Premium 旗舰套餐",
-            "price": "29.99",
+            "name": "高速增强版",
+            "price": "19.9",
             "priceTime": "月",
             "sid": "7"
           }
         },
-        "flow": {
-          "1": {
-            "features": {
-              "ad": "永久不限时流量包",
-              "list": "流量: 100GB 永久流量、用完即止\n设备: 不限设备数\n带宽: 限速 1000Mbps\n线路: IEPL 专线节点 + 中继隧道 + 企业专线\n节点: 108 个国家/地区节点",
-              "title": "套餐特点"
-            },
-            "name": "Rocket 100GB",
-            "price": "99",
-            "priceTime": "永久",
-            "sid": "8"
-          },
-          "2": {
-            "features": {
-              "ad": "永久不限时流量包",
-              "list": "流量: 100GB 永久流量、用完即止\n设备: 不限设备数\n带宽: 限速 1000Mbps\n线路: IEPL 专线节点 + 中继隧道 + 企业专线\n节点: 108 个国家/地区节点",
-              "title": "套餐特点"
-            },
-            "name": "Rocket 500GB",
-            "price": "239",
-            "priceTime": "永久",
-            "sid": "9"
-          },
-          "3": {
-            "features": {
-              "ad": "永久不限时流量包",
-              "list": "流量: 100GB 永久流量、用完即止\n设备: 不限设备数\n带宽: 限速 1000Mbps\n线路: IEPL 专线节点 + 中继隧道 + 企业专线\n节点: 108 个国家/地区节点",
-              "title": "套餐特点"
-            },
-            "name": "Rocket 1000GB",
-            "price": "489",
-            "priceTime": "永久",
-            "sid": "10"
-          }
-        },
         "switch": {
-          "cycle": "周期订阅",
-          "flow": "按量付费"
+          "cycle": "周期订阅"
         }
       },
       "title": "购买套餐，畅享全球网络加速"
@@ -406,7 +370,7 @@
     "reset": "忘记密码？",
     "submit": "登录",
     "success": "登录成功",
-    "title": "登录 AirBus"
+    "title": "登录 布丁云"
   },
   "node": {
     "banner": {
@@ -613,17 +577,10 @@
     },
     "submit": "注册",
     "success": "注册成功",
-    "title": "注册 AirBus"
+    "title": "注册 布丁云"
   },
   "reset": {
-    "changePwdByEmail": "修改密码（邮箱验证）",
     "changePwdByOldPwd": "修改密码（旧密码验证）",
-    "code": {
-      "button": "发送验证码",
-      "label": "邮箱验证码",
-      "placeholder": "请输入邮箱验证码",
-      "success": "验证码发送成功至您的邮箱"
-    },
     "description": "重新设置您的登录密码",
     "email": {
       "placeholder": "请输入您的邮箱",

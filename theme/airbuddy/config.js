@@ -10,13 +10,13 @@
  */
 window.CONFIG = {
     // 通用配置
-    logo: 'https://github.com/dc8683/picx-images-hosting/raw/master/Air-Rocket-T-LOGO@1x.2vewwvqwbf.webp', // 网站logo
+    logo: 'https://github.com/budingyun123/picx-images-hosting/raw/master/App/IMAGE-2025-06-09-00:08:21.2obry9scyb.webp', // 网站logo
     title: "布丁云", // 网站标题.
 
     // 主题配置
     theme: {
-        primary: '#23b79c', // 主题色
-        mode: 'dark', // 默认主题模式: dark 暗色，light 亮色，auto 自动
+        primary: '#f7707e', // 主题色
+        mode: 'light', // 默认主题模式: dark 暗色，light 亮色，auto 自动
     },
 
     // 国际化配置
@@ -35,7 +35,7 @@ window.CONFIG = {
 
     // Crisp 配置
     crisp: {
-        id: 'cf6acc26-fc09-4653-833c-7452bb71e19c', // Crisp ID
+        id: '', // Crisp ID
         enable: true, // 是否启用 Crisp 聊天窗口
     },
 
@@ -108,12 +108,12 @@ window.CONFIG = {
     // 展示性首页配置
     home: {
         poster: {
-            earth_texture: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/8k_earth_nightmap.3yemews86x.webp', // 地球纹理图片
-            universe_background: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/space-unsplash.6m42pbctq4.webp', // 宇宙背景图片
+            earth_texture: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/8k_earth_nightmap.3yemews86x.1lc2nj81v4.webp', // 地球纹理图片
+            universe_background: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/space-unsplash.6m42pbctq4.8s3k0v6k56.webp', // 宇宙背景图片
             feature_number: 5, // 轨道特性展示数量，最大 6 个，特性文案内容请在国际化配置中修改
         },
         matrix: {
-            bgImg: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/App-Matrix-1025hx.8ojvddbere.webp'
+            bgImg: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/App-Matrix-1025hx.8ojvddbere.7eh0wtvi4f.webp'
         },
         shopPlan: {
             cycle: true,
@@ -129,7 +129,7 @@ window.CONFIG = {
             matrix: true,
             nodes: true,
             privacy: true,
-            shop: true,
+            shop: false,
             service: true,
         }
     },
@@ -140,19 +140,19 @@ window.CONFIG = {
         features: [
             {
                 key: 'first',
-                image: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-cloud-upload.4n7vyz7bf1.webp',
+                image: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/3d-element-cloud-upload.4n7vyz7bf1.7zqoj4pyf4.webp',
             },
             {
                 key: 'second',
-                image: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-ai.8hgnhxp9c8.webp',
+                image: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/3d-element-ai.8hgnhxp9c8.3rbh9azpmp.webp',
             },
             {
                 key: 'third',
-                image: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-media.1vytqwl7cz.webp',
+                image: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/3d-element-media.1vytqwl7cz.wit3ikiv5.webp',
             }
         ],
         backgroundMode: 'img', // 背景模式: earth 地球动画，img 图片，none 无背景；earth 地球动画请配置 home.poster.xx
-        backgroundImage: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Fluid-gradient-background.1e8s2bjtsj.webp', // 背景图片，如果背景模式为 img，则使用此图片
+        backgroundImage: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/Fluid-gradient-background.1e8s2bjtsj.45hx0680hv.webp', // 背景图片，如果背景模式为 img，则使用此图片
 
         inviteCodeEdit: false, // 是否允许用户修改邀请码, true 可以，false 不可以
         inviteDisplay: true, // 是否显示邀请码输入框，true 显示，false 不显示
@@ -168,29 +168,29 @@ window.CONFIG = {
         display: true, // 是否显示
         downloadNow: true, // 点击卡片时是否马上下载客户端
         windows: {
-            id: 1,
-            downloadLink: '', // Windows 客户端下载链接
-            docLink: "",
+            id: 4,
+            downloadLink: 'https://github.com/budingyun123/picx-images-hosting/releases/download/MixTools/clash_win.exe', // Windows 客户端下载链接
+            docLink: undefined,
         },
         mac: {
-            id: 2,
-            downloadLink: '', // macOS 客户端下载链接
-            docLink: '',
+            id: 3,
+            downloadLink: 'https://github.com/budingyun123/picx-images-hosting/releases/download/MixTools/mac_clash_apple.dmg', // macOS 客户端下载链接
+            docLink: undefined,
         },
         ios: {
-            id: 4,
-            downloadLink: '', // iOS 客户端下载链接
+            id: 1,
+            downloadLink: 'sing-box://import-remote-profile?url=https%3A%2F%2Fbudingyun.com%2Fs%2Fa8f1141deb89ab75b0cc41c4162e818a%26flag%3Dsing-box#%E5%B8%83%E4%B8%81%E4%BA%91', // iOS 客户端下载链接
             docLink: undefined,
         },
         android: {
-            id: 3,
-            downloadLink: '', // Android 客户端下载链接
+            id: 2,
+            downloadLink: 'https://github.com/budingyun123/picx-images-hosting/releases/download/MixTools/clash_android.apk', // Android 客户端下载链接
             docLink: undefined,
         },
         //  Home 页面中的客户端 mockup 图片
         mockup: {
-            macbook: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/New-MacBook-Pro-16-Inch-Mockup.175k6vxoc2.webp',
-            iphone: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/iPhone-14-Pro-Max---Mockup.3rbejixmy9.webp'
+            macbook: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/New-MacBook-Pro-16-Inch-Mockup.175k6vxoc2.6t7dajh51y.webp',
+            iphone: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/iPhone-14-Pro-Max---Mockup.3rbejixmy9.39lfkqef9z.webp'
         }
     },
 
@@ -218,14 +218,14 @@ window.CONFIG = {
     node: {
         customNodeBanner: {
             display: true,
-            elementImg: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-server.lvwkl381q.webp',
+            elementImg: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/3d-element-server.lvwkl381q.67xpo8morc.webp',
         },
         ssLink: false // 是否显示 ss 订阅链接复制打开按钮
     },
 
     // 订单配置
     order: {
-        payPendingImg: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-order.2vex42nyi6.webp',
+        payPendingImg: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/3d-element-order.2vex42nyi6.13m0yymriz.webp',
         overrideConfirm: true, // 用户在变更套餐时是否要弹窗二次确认
         payUrlDisplay: false, // 是否显示支付链接，true 显示，false 不显示
     },
@@ -233,13 +233,13 @@ window.CONFIG = {
     // 邀请配置
     invite: {
         bannerDisplay: true, // 是否显示首页的邀请 banner
-        bannerImg: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-cash.26lnk20fhk.webp',
+        bannerImg: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/3d-element-cash.26lnk20fhk.1e8us41zod.webp',
         inviteCodeUrlPrefix: window.location.origin, // 邀请码链接前缀，默认是当前网站的域名
     },
 
     // 工单配置
     ticket: {
-        elementImg: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-hand-pen.9gwqv3s0h3.webp'
+        elementImg: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/3d-element-hand-pen.9gwqv3s0h3.2obryfjyzi.webp'
     },
 
     // 公告配置
@@ -276,15 +276,15 @@ window.CONFIG = {
                 //     }
                 // },
                 // 面向新用户的弹窗
-                {
-                    toUser: 'newUser',
-                    code: 'HappyNewYear',
-                    title: '初次相见\n立即领券下单',
-                    cardComponent: 'VipCard',
-                    countdown: {
-                        effectiveTime: 48
-                    }
-                },
+                // {
+                //     toUser: 'newUser',
+                //     code: 'HappyNewYear',
+                //     title: '初次相见\n立即领券下单',
+                //     cardComponent: 'VipCard',
+                //     countdown: {
+                //         effectiveTime: 48
+                //     }
+                // },
                 // 面向已过期用户的弹窗
                 {
                     toUser: 'expiredUser',
@@ -317,11 +317,11 @@ window.CONFIG = {
          * 特色公告元素图片资源
          */
         element: {
-            bagDrawerText: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Super-Speed-Kill-Text-Element.7w6zvmetmy.webp',
-            bagDrawerBg: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Red-envelope-gold-coin-elements.1vytqw57zb.webp',
-            blackGift: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/black-gift-element.m8y9ssdi.webp',
-            cashBox: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Cash-Box-Element.4n7vyyrc0y.webp',
-            vipCard: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/hand-vip-card-element.9dd4xdiydo.webp'
+            bagDrawerText: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/Super-Speed-Kill-Text-Element.7w6zvmetmy.1sfaizaajk.webp',
+            bagDrawerBg: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/Red-envelope-gold-coin-elements.1vytqw57zb.8z6rwb8std.webp',
+            blackGift: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/black-gift-element.m8y9ssdi.2324c4pioy.webp',
+            cashBox: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/Cash-Box-Element.4n7vyyrc0y.1sfaizaajn.webp',
+            vipCard: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/hand-vip-card-element.9dd4xdiydo.67xpo8moro.webp'
         }
     },
 
@@ -330,27 +330,27 @@ window.CONFIG = {
         display: true, // 是否显示订阅模块, 首页 / 账号设置页面都会有此模块
         clash: {
             display:true, // 是否显示 Clash
-            icon: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Clash.9gwri62wr1.webp'
+            icon: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/Clash.9gwri62wr1.5j4g47z5r8.webp'
         },
         shadowrocket: {
             display:true, // 是否显示 Shadowrocket
-            icon: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Shadowrocket.8z6ptl1j67.webp'
+            icon: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/Shadowrocket.8z6ptl1j67.1vywgp3d9h.webp'
         },
         singbox: {
             display:true, // 是否显示 Singbox
-            icon: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Singbox.espc7ryvj.svg'
+            icon: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/Singbox.espc7ryvj.6bhblyfrhh.svg'
         },
         surfboard: {
             display:true, // 是否显示 Surfboard
-            icon: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Surfboard.8vn3vv8ggg.svg'
+            icon: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/Surfboard.8vn3vv8ggg.6pnrcto2cm.svg'
         },
         surge: {
             display:true, // 是否显示 Surge
-            icon: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Surge.8s3hy5fdqo.svg'
+            icon: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/Surge.8s3hy5fdqo.b95h865t2.svg'
         },
         quantumult: {
             display:true, // 是否显示 Quantumult
-            icon: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Quantumult.102cyimf66.webp'
+            icon: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/Quantumult.102cyimf66.4xushx4pgn.webp'
         },
         subscribeLink: true, // 是否显示订阅链接
     },
@@ -369,12 +369,12 @@ window.CONFIG = {
     // 礼品卡模块配置
     giftCard: {
         switch: false, // 是否启用礼品卡功能，请确保后端服务支持此功能
-        elementImg: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-gift.lvwkl3813.webp'
+        elementImg: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/3d-element-gift.lvwkl3813.8hgq7q7f8o.webp'
     },
 
     // 100% 优惠券兑换配置，建议和礼品卡不要同时使用，容易造成歧义，如果您的面板是 v2board / xboard，没有礼品卡功能，建议使用这个
     couponExchange: {
-        elementImg: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Gift3D.6bh9l0f6qj.webp'
+        elementImg: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/Gift3D.6bh9l0f6qj.3uv3718vl4.webp'
     },
 
     // 新用户/未购买订阅用户的欢迎卡片
@@ -407,7 +407,7 @@ window.CONFIG = {
         // Tips: 如果对应的用户状态标签你设置了 plan 组件，那么就不建议你在这里设置购买按钮了，因为 plan 组件本身就有购买按钮
         buyButton: ['expiredUser', 'trafficEmptyUser', 'expirySoonUser', 'trafficLowUser'],
         // element 的图片资源
-        elementImg: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/game-machine.3rbf9panfp.webp',
+        elementImg: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/game-machine.3rbf9panfp.lvzadldyh.webp',
         // 背景模式，'blurImg' | 'none' , 'blurImg' 为以 elementImg 来模糊背景，none 则不处理
         backgroundMode: 'none',
     }

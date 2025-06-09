@@ -167,16 +167,6 @@ window.CONFIG = {
     client: {
         display: true, // 是否显示
         downloadNow: true, // 点击卡片时是否马上下载客户端
-        windows: {
-            id: 4,
-            downloadLink: 'https://github.com/budingyun123/picx-images-hosting/releases/download/MixTools/clash_win.exe', // Windows 客户端下载链接
-            docLink: undefined,
-        },
-        mac: {
-            id: 3,
-            downloadLink: 'https://github.com/budingyun123/picx-images-hosting/releases/download/MixTools/mac_clash_apple.dmg', // macOS 客户端下载链接
-            docLink: undefined,
-        },
         ios: {
             id: 1,
             downloadLink: 'sing-box://import-remote-profile?url=https%3A%2F%2Fbudingyun.com%2Fs%2Fa8f1141deb89ab75b0cc41c4162e818a%26flag%3Dsing-box#%E5%B8%83%E4%B8%81%E4%BA%91', // iOS 客户端下载链接
@@ -185,6 +175,16 @@ window.CONFIG = {
         android: {
             id: 2,
             downloadLink: 'https://github.com/budingyun123/picx-images-hosting/releases/download/MixTools/clash_android.apk', // Android 客户端下载链接
+            docLink: undefined,
+        },
+        mac: {
+            id: 3,
+            downloadLink: 'https://github.com/budingyun123/picx-images-hosting/releases/download/MixTools/mac_clash_apple.dmg', // macOS 客户端下载链接
+            docLink: undefined,
+        },
+        windows: {
+            id: 4,
+            downloadLink: 'https://github.com/budingyun123/picx-images-hosting/releases/download/MixTools/clash_win.exe', // Windows 客户端下载链接
             docLink: undefined,
         },
         //  Home 页面中的客户端 mockup 图片
@@ -209,7 +209,7 @@ window.CONFIG = {
         flow: {
             primary_plan: null, // 按量套餐列表中默认高亮显示的套餐 ID，null 为不高亮显示
             feature: {
-                max_num: 3, // 卡片中显示的特性数量，超过此数量的特性将被隐藏，需要 hover 查看更多，0 为全部显示
+                max_num: 0, // 卡片中显示的特性数量，超过此数量的特性将被隐藏，需要 hover 查看更多，0 为全部显示
             }
         }
     },
@@ -276,15 +276,15 @@ window.CONFIG = {
                 //     }
                 // },
                 // 面向新用户的弹窗
-                // {
-                //     toUser: 'newUser',
-                //     code: 'HappyNewYear',
-                //     title: '初次相见\n立即领券下单',
-                //     cardComponent: 'VipCard',
-                //     countdown: {
-                //         effectiveTime: 48
-                //     }
-                // },
+                {
+                    toUser: 'newUser',
+                    code: 'HappyNewYear',
+                    title: '初次相见\n立即领券下单',
+                    cardComponent: 'VipCard',
+                    countdown: {
+                        effectiveTime: 48
+                    }
+                },
                 // 面向已过期用户的弹窗
                 {
                     toUser: 'expiredUser',

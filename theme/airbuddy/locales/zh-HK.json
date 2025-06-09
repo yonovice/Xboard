@@ -2,7 +2,7 @@
   "auth": {
     "features": {
       "first": {
-        "description": "AirBus 採用高速全中轉專線連接，保證網絡穩定、高速、毫秒級的響應速度",
+        "description": "布丁云 採用高速全中轉專線連接，保證網絡穩定、高速、毫秒級的響應速度",
         "title": "高速全中轉專線連接"
       },
       "second": {
@@ -19,7 +19,7 @@
       "LoggedIn": "已登錄",
       "loginPlease": "請先完成登錄"
     },
-    "title": "從這開始連接世界 👏\nAirBus - 暢享全球網絡加速"
+    "title": "從這開始連接世界 👏\n布丁云 - 暢享全球網絡加速"
   },
   "bill": {
     "balance": "餘額支付",
@@ -91,19 +91,19 @@
     "unit": "元"
   },
   "footer": {
-    "copyRight": "©2025 Airbuddy保留所有權利",
+    "copyRight": "© 2025 布丁云 All Rights Reserved",
     "links": {
       "1": {
         "text": "備用站點",
-        "url": "https://baidu.com"
+        "url": "https://budingyun.com"
       },
       "2": {
         "text": "加入 Telegram 頻道",
-        "url": "https://t.me/themebuddy"
+        "url": "https://t.me/buding03"
       },
       "3": {
         "text": "聯繫 Telegram 客服",
-        "url": "https://t.me/themebuddy"
+        "url": "https://t.me/budingyun123"
       }
     }
   },
@@ -181,7 +181,7 @@
         "5": "永不斷線",
         "6": "專線加速"
       },
-      "title": "AirRocket\n無限制暢享全球網絡加速"
+      "title": "布丁云\n無限制暢享全球網絡加速"
     },
     "privacy": {
       "description": "全中轉節點，隧道加密，保護您的隱私，安全加密，永不洩露",
@@ -197,10 +197,10 @@
     "service": {
       "button": {
         "text": "聯繫客服",
-        "url": "https://t.me/themebuddy"
+        "url": "https://t.me/budingyun123"
       },
-      "description": "有任何問題，多種聯繫方式聯繫，網絡工程師隨時待命，隨傳隨到，永不失聯的 VIP 服務",
-      "title": "7x24 小時極速響應客服"
+      "description": "如有任何問題，聯繫多種聯繫方式，網絡工程師隨時待命，隨時為您服務，永遠不會失聯",
+      "title": "7x24 小時快速響應客服"
     },
     "shop": {
       "button": "立即購買",
@@ -245,35 +245,35 @@
           "1": {
             "features": {
               "ad": "永久不限時流量包",
-              "list": "流量: 100GB 永久流量、用完即止\n設備: 不限設備數\n帶寬: 限速 1000Mbps\n線路: IEPL 專線節點 + 中繼隧道 + 企業專線\n節點: 108 個國家/地區節點",
+              "list": "✓ 不限制設備數\n✓ 700GB 流量/不限時\n✓ 國內高品質高速中轉入口\n✓ 峰值帶寬：500 Mbps\n✓ 提供優秀的流媒體解鎖與 ChatGPT 解鎖\n✓ 國家/地區：香港, 台灣, 日本, 美國, 新加坡, 韓國\n✓ 冷門國家/地區IP: 英國, 澳大利亞, 南極洲, 朝鮮\n✓ 通知頻道群與工單售後保障\n✗ 不允許濫用分享，一經發現封號處理\n✗ 僅保證中國大陸地區使用\n✗ 特殊商品，無任何退款政策，請慎下單",
               "title": "套餐特點"
             },
-            "name": "火箭100GB",
-            "price": "99",
-            "priceTime": "永久",
-            "sid": "8"
+            "name": "省心流量包|小",
+            "price": "88.00",
+            "priceTime": "一次性",
+            "sid": "9"
           },
           "2": {
             "features": {
               "ad": "永久不限時流量包",
-              "list": "流量: 100GB 永久流量、用完即止\n設備: 不限設備數\n帶寬: 限速 1000Mbps\n線路: IEPL 專線節點 + 中繼隧道 + 企業專線\n節點: 108 個國家/地區節點",
+              "list": "✓ 不限制設備數\n✓ 1500GB 流量/不限時\n✓ 國內高品質高速中轉入口\n✓ 峰值帶寬：800 Mbps\n✓ 提供優秀的流媒體解鎖與 ChatGPT 解鎖\n✓ 國家/地區：香港, 台灣, 日本, 美國, 新加坡, 韓國\n✓ 冷門國家/地區IP: 英國, 澳大利亞, 南極洲, 朝鮮\n✓ 通知頻道群與工單售後保障\n✗ 不允許濫用分享，一經發現封號處理\n✗ 僅保證中國大陸地區使用\n✗ 特殊商品，無任何退款政策，請慎下單",
               "title": "套餐特點"
             },
-            "name": "火箭500GB",
-            "price": "239",
-            "priceTime": "永久",
-            "sid": "9"
+            "name": "省心流量包|中",
+            "price": "138.00",
+            "priceTime": "一次性",
+            "sid": "10"
           },
           "3": {
             "features": {
               "ad": "永久不限時流量包",
-              "list": "流量: 100GB 永久流量、用完即止\n設備: 不限設備數\n帶寬: 限速 1000Mbps\n線路: IEPL 專線節點 + 中繼隧道 + 企業專線\n節點: 108 個國家/地區節點",
+              "list": "✓ 不限制設備數\n✓ 3000GB 流量/不限時\n✓ 國內高品質高速中轉入口\n✓ 峰值帶寬：1000 Mbps 不限速\n✓ 提供優秀的流媒體解鎖與 ChatGPT 解鎖\n✓ 國家/地區：香港, 台灣, 日本, 美國, 新加坡, 韓國\n✓ 冷門國家/地區IP: 英國, 澳大利亞, 南極洲, 朝鮮\n✓ 通知頻道群與工單售後保障\n✗ 不允許濫用分享，一經發現封號處理\n✗ 僅保證中國大陸地區使用\n✗ 特殊商品，無任何退款政策，請慎下單",
               "title": "套餐特點"
             },
-            "name": "火箭1000GB",
-            "price": "489",
-            "priceTime": "永久",
-            "sid": "10"
+            "name": "省心流量包|大",
+            "price": "218.00",
+            "priceTime": "一次性",
+            "sid": "11"
           }
         },
         "switch": {
@@ -358,9 +358,9 @@
     "register": "還沒賬號？點擊註冊",
     "remember": "記住密碼",
     "reset": "忘記密碼？",
-    "submit": "登入",
+    "submit": "登錄",
     "success": "登錄成功",
-    "title": "登錄 AirBus"
+    "title": "登錄 布丁云"
   },
   "node": {
     "banner": {
@@ -537,7 +537,7 @@
     },
     "description": "從這開始連接世界",
     "email": {
-      "placeholder": "請輸入您的郵箱",
+      "placeholder": "請輸入郵箱",
       "rules": {
         "required": "請輸入正確的郵箱"
       }
@@ -550,7 +550,7 @@
     },
     "login": "已有賬號？點擊登錄",
     "password": {
-      "placeholder": "請輸入你的登錄密碼",
+      "placeholder": "請輸入登錄密碼",
       "rules": {
         "min": "密碼長度至少為 8 位",
         "required": "請輸入密碼"
@@ -566,7 +566,7 @@
     },
     "submit": "註冊",
     "success": "註冊成功",
-    "title": "註冊 AirBus"
+    "title": "註冊 布丁云"
   },
   "reset": {
     "changePwdByEmail": "修改密碼（郵箱驗證）",

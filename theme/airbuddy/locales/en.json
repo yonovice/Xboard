@@ -2,7 +2,7 @@
   "auth": {
     "features": {
       "first": {
-        "description": "AirBus uses high-speed full transit dedicated line connection to ensure stable network, high-speed and millisecond response speed",
+        "description": "布丁云 uses high-speed full transit dedicated line connection to ensure stable network, high-speed and millisecond response speed",
         "title": "High-speed full transit dedicated line connection"
       },
       "second": {
@@ -19,7 +19,7 @@
       "LoggedIn": "Logged in",
       "loginPlease": "Please complete the login first"
     },
-    "title": "From here, connect the world\nAirBus - Enjoy global network acceleration"
+    "title": "From here, connect the world 👏\n布丁云 - Enjoy global network acceleration"
   },
   "bill": {
     "balance": "Balance payment",
@@ -91,19 +91,19 @@
     "unit": "Yuan"
   },
   "footer": {
-    "copyRight": "© 2025 AirBuddy All Rights Reserved",
+    "copyRight": "© 2025 布丁云 All Rights Reserved",
     "links": {
       "1": {
         "text": "Alternative site",
-        "url": "https://baidu.com"
+        "url": "https://budingyun.com"
       },
       "2": {
         "text": "Join Telegram Channel",
-        "url": "https://t.me/themebuddy"
+        "url": "https://t.me/buding03"
       },
       "3": {
         "text": "Contact Telegram Customer Service",
-        "url": "https://t.me/themebuddy"
+        "url": "https://t.me/budingyun123"
       }
     }
   },
@@ -181,7 +181,7 @@
         "5": "Keep the line forever",
         "6": "Dedicated line acceleration"
       },
-      "title": "AirRocket\nEnjoy global network acceleration without limit"
+      "title": "布丁云\nEnjoy global network acceleration without limit"
     },
     "privacy": {
       "description": "Full transit nodes, tunnel encryption, protect your privacy, secure encryption, never leak",
@@ -197,7 +197,7 @@
     "service": {
       "button": {
         "text": "Contact customer service",
-        "url": "https://t.me/themebuddy"
+        "url": "https://t.me/budingyun123"
       },
       "description": "If you have any questions, contact multiple contact information, network engineers are on call at any time, and will be available at any time, and will never lose contact.",
       "title": "7x24 hours of fast response to customer service"
@@ -245,35 +245,35 @@
           "1": {
             "features": {
               "ad": "Permanent unlimited traffic package",
-              "list": "Traffic: 100GB permanent traffic, stopping as soon as it is used up\nEquipment: No limit on the number of equipment\nBandwidth: Speed ​​limit 1000Mbps\nLine: IEPL dedicated line node + relay tunnel + enterprise dedicated line\nNode: 108 countries/regions nodes",
-              "title": "Package features"
+              "list": "✓ Unlimited device count\n✓ 700GB traffic/unlimited time\n✓ Domestic high-quality high-speed transit access\n✓ Peak bandwidth: 500 Mbps\n✓ Excellent streaming unlock & ChatGPT unlock\n✓ Countries/Regions: Hong Kong, Taiwan, Japan, USA, Singapore, South Korea\n✓ Cold niche countries/regions IP: UK, Australia, Antarctica, North Korea\n✓ Notification channel group & work order customer service support\n✗ Abuse sharing not allowed, account banned if found\n✗ Only guarantee mainland China usage\n✗ Special product, no refund policy, please order carefully",
+              "title": "Package Features"
             },
-            "name": "Rocket 100GB",
-            "price": "99",
-            "priceTime": "permanent",
-            "sid": "8"
+            "name": "Peace of Mind Traffic Package|Small",
+            "price": "88.00",
+            "priceTime": "one-time",
+            "sid": "9"
           },
           "2": {
             "features": {
               "ad": "Permanent unlimited traffic package",
-              "list": "Traffic: 100GB permanent traffic, stopping as soon as it is used up\nEquipment: No limit on the number of equipment\nBandwidth: Speed ​​limit 1000Mbps\nLine: IEPL dedicated line node + relay tunnel + enterprise dedicated line\nNode: 108 countries/regions nodes",
-              "title": "Package features"
+              "list": "✓ Unlimited device count\n✓ 1500GB traffic/unlimited time\n✓ Domestic high-quality high-speed transit access\n✓ Peak bandwidth: 800 Mbps\n✓ Excellent streaming unlock & ChatGPT unlock\n✓ Countries/Regions: Hong Kong, Taiwan, Japan, USA, Singapore, South Korea\n✓ Cold niche countries/regions IP: UK, Australia, Antarctica, North Korea\n✓ Notification channel group & work order customer service support\n✗ Abuse sharing not allowed, account banned if found\n✗ Only guarantee mainland China usage\n✗ Special product, no refund policy, please order carefully",
+              "title": "Package Features"
             },
-            "name": "Rocket 500GB",
-            "price": "239",
-            "priceTime": "permanent",
-            "sid": "9"
+            "name": "Peace of Mind Traffic Package|Medium",
+            "price": "138.00",
+            "priceTime": "one-time",
+            "sid": "10"
           },
           "3": {
             "features": {
               "ad": "Permanent unlimited traffic package",
-              "list": "Traffic: 100GB permanent traffic, stopping as soon as it is used up\nEquipment: No limit on the number of equipment\nBandwidth: Speed ​​limit 1000Mbps\nLine: IEPL dedicated line node + relay tunnel + enterprise dedicated line\nNode: 108 countries/regions nodes",
-              "title": "Package features"
+              "list": "✓ Unlimited device count\n✓ 3000GB traffic/unlimited time\n✓ Domestic high-quality high-speed transit access\n✓ Peak bandwidth: 1000 Mbps unlimited\n✓ Excellent streaming unlock & ChatGPT unlock\n✓ Countries/Regions: Hong Kong, Taiwan, Japan, USA, Singapore, South Korea\n✓ Cold niche countries/regions IP: UK, Australia, Antarctica, North Korea\n✓ Notification channel group & work order customer service support\n✗ Abuse sharing not allowed, account banned if found\n✗ Only guarantee mainland China usage\n✗ Special product, no refund policy, please order carefully",
+              "title": "Package Features"
             },
-            "name": "Rocket 1000GB",
-            "price": "489",
-            "priceTime": "permanent",
-            "sid": "10"
+            "name": "Peace of Mind Traffic Package|Large",
+            "price": "218.00",
+            "priceTime": "one-time",
+            "sid": "11"
           }
         },
         "switch": {
@@ -360,7 +360,7 @@
     "reset": "forget the password?",
     "submit": "Log in",
     "success": "Login successfully",
-    "title": "Log in to AirBus"
+    "title": "Log in to 布丁云"
   },
   "node": {
     "banner": {
@@ -566,7 +566,7 @@
     },
     "submit": "register",
     "success": "Registered successfully",
-    "title": "Register AirBus"
+    "title": "Register 布丁云"
   },
   "reset": {
     "changePwdByEmail": "Modify password (email verification)",

@@ -2,11 +2,11 @@
   "auth": {
     "features": {
       "first": {
-        "description": "Airbus verwendet Hochgeschwindigkeits-Dedizierungsverbindung mit Hochgeschwindigkeit, um ein stabiles Netzwerk-, Hochgeschwindigkeits- und Millisekunden-Reaktionsgeschwindigkeit zu gewährleisten",
+        "description": "布丁云 verwendet Hochgeschwindigkeits-Dedizierungsverbindung mit Hochgeschwindigkeit, um ein stabiles Netzwerk-, Hochgeschwindigkeits- und Millisekunden-Reaktionsgeschwindigkeit zu gewährleisten",
         "title": "Hochgeschwindigkeitsdedizierte Leitungsverbindung mit Hochgeschwindigkeit"
       },
       "second": {
-        "description": "OpenAI CHATGPT, Google Bard, Middlebury und andere AI Services Unbegrenzte Zugriff, intelligente Beschleunigung",
+        "description": "OpenAI ChatGPT, Google Bard, Middlebury und andere AI Services Unbegrenzte Zugriff, intelligente Beschleunigung",
         "title": "KI intelligente Beschleunigung"
       },
       "third": {
@@ -19,7 +19,7 @@
       "LoggedIn": "Angemeldet",
       "loginPlease": "Bitte vervollständigen Sie zuerst die Anmeldung"
     },
-    "title": "Verbinden Sie die Welt von hier aus\nAirbus - Genießen Sie die globale Netzwerkbeschleunigung"
+    "title": "Verbinden Sie die Welt von hier aus 👏\n布丁云 - Genießen Sie die globale Netzwerkbeschleunigung"
   },
   "bill": {
     "balance": "Saldozahlung",
@@ -91,19 +91,19 @@
     "unit": "Yuan"
   },
   "footer": {
-    "copyRight": "© 2025 Airbuddy Alle Rechte vorbehalten",
+    "copyRight": "© 2025 布丁云 Alle Rechte vorbehalten",
     "links": {
       "1": {
         "text": "Alternative Stelle",
-        "url": "https://baidu.com"
+        "url": "https://budingyun.com"
       },
       "2": {
         "text": "Treten Sie Telegrammkanal bei",
-        "url": "https://t.me/themebuddy"
+        "url": "https://t.me/buding03"
       },
       "3": {
         "text": "Wenden Sie sich an Telegram -Kundendienst",
-        "url": "https://t.me/themebuddy"
+        "url": "https://t.me/budingyun123"
       }
     }
   },
@@ -181,7 +181,7 @@
         "5": "Halten Sie die Linie für immer",
         "6": "Dedizierte Linienbeschleunigung"
       },
-      "title": "Airrocket\nGenießen Sie die globale Netzwerkbeschleunigung ohne Limit"
+      "title": "布丁云\nGenießen Sie die globale Netzwerkbeschleunigung ohne Limit"
     },
     "privacy": {
       "description": "Vollständige Transitknoten, Tunnelverschlüsselung, Schutz Ihrer Privatsphäre, sichere Verschlüsselung, niemals auslaufen",
@@ -197,10 +197,10 @@
     "service": {
       "button": {
         "text": "Wenden Sie sich an den Kundendienst",
-        "url": "https://t.me/themebuddy"
+        "url": "https://t.me/budingyun123"
       },
-      "description": "Wenn Sie Fragen haben, wenden Sie sich an mehrere Kontaktinformationen, Netzwerkingenieure sind jederzeit auf Anruf und werden jederzeit verfügbar sein und niemals den Kontakt verlieren.",
-      "title": "7x24 Stunden schneller Antwort auf den Kundendienst"
+      "description": "Wenn Sie Fragen haben, wenden Sie sich an mehrere Kontaktinformationen. Netzwerktechniker stehen jederzeit zur Verfügung und werden jederzeit verfügbar sein und niemals den Kontakt verlieren.",
+      "title": "7x24 Stunden schnelle Reaktion auf den Kundendienst"
     },
     "shop": {
       "button": "Kaufe es jetzt",
@@ -245,35 +245,35 @@
           "1": {
             "features": {
               "ad": "Permanent unbegrenztes Verkehrspaket",
-              "list": "Verkehr: 100 GB dauerhafter Verkehr, anhalten, sobald er aufgebraucht ist\nAusrüstung: Keine Grenze für die Anzahl der Geräte\nBandbreite: Geschwindigkeitsbegrenzung 1000 Mbit / s\nZeile: IEPL Dedizierte Zeilenknoten + Relaistunnel + Enterprise Dedized Line\nKnoten: 108 Länder/Regionen Knoten",
+              "list": "✓ Unbegrenzte Gerätezahl\n✓ 700GB Datenverkehr/unbegrenzte Zeit\n✓ Inländischer hochwertiger Hochgeschwindigkeits-Transit-Zugang\n✓ Spitzenbandbreite: 500 Mbps\n✓ Exzellente Streaming-Entsperrung & ChatGPT-Entsperrung\n✓ Länder/Regionen: Hongkong, Taiwan, Japan, USA, Singapur, Südkorea\n✓ Nischen-Länder/Regionen IP: Großbritannien, Australien, Antarktis, Nordkorea\n✓ Benachrichtigungskanal-Gruppe & Arbeitsauftrag-Kundensupport\n✗ Missbrauch beim Teilen nicht erlaubt, bei Entdeckung Konto gesperrt\n✗ Nur Nutzung in Festlandchina garantiert\n✗ Sonderprodukt, keine Rückgabe-Richtlinie, bitte vorsichtig bestellen",
               "title": "Paketfunktionen"
             },
-            "name": "Rocket 100 GB",
-            "price": "99",
-            "priceTime": "dauerhaft",
-            "sid": "8"
+            "name": "Sorgenfrei Datenpaket|Klein",
+            "price": "88.00",
+            "priceTime": "einmalig",
+            "sid": "9"
           },
           "2": {
             "features": {
               "ad": "Permanent unbegrenztes Verkehrspaket",
-              "list": "Verkehr: 100 GB dauerhafter Verkehr, anhalten, sobald er aufgebraucht ist\nAusrüstung: Keine Grenze für die Anzahl der Geräte\nBandbreite: Geschwindigkeitsbegrenzung 1000 Mbit / s\nZeile: IEPL Dedizierte Zeilenknoten + Relaistunnel + Enterprise Dedized Line\nKnoten: 108 Länder/Regionen Knoten",
+              "list": "✓ Unbegrenzte Gerätezahl\n✓ 1500GB Datenverkehr/unbegrenzte Zeit\n✓ Inländischer hochwertiger Hochgeschwindigkeits-Transit-Zugang\n✓ Spitzenbandbreite: 800 Mbps\n✓ Exzellente Streaming-Entsperrung & ChatGPT-Entsperrung\n✓ Länder/Regionen: Hongkong, Taiwan, Japan, USA, Singapur, Südkorea\n✓ Nischen-Länder/Regionen IP: Großbritannien, Australien, Antarktis, Nordkorea\n✓ Benachrichtigungskanal-Gruppe & Arbeitsauftrag-Kundensupport\n✗ Missbrauch beim Teilen nicht erlaubt, bei Entdeckung Konto gesperrt\n✗ Nur Nutzung in Festlandchina garantiert\n✗ Sonderprodukt, keine Rückgabe-Richtlinie, bitte vorsichtig bestellen",
               "title": "Paketfunktionen"
             },
-            "name": "Rakete 500 GB",
-            "price": "239",
-            "priceTime": "dauerhaft",
-            "sid": "9"
+            "name": "Sorgenfrei Datenpaket|Mittel",
+            "price": "138.00",
+            "priceTime": "einmalig",
+            "sid": "10"
           },
           "3": {
             "features": {
               "ad": "Permanent unbegrenztes Verkehrspaket",
-              "list": "Verkehr: 100 GB dauerhafter Verkehr, anhalten, sobald er aufgebraucht ist\nAusrüstung: Keine Grenze für die Anzahl der Geräte\nBandbreite: Geschwindigkeitsbegrenzung 1000 Mbit / s\nZeile: IEPL Dedizierte Zeilenknoten + Relaistunnel + Enterprise Dedized Line\nKnoten: 108 Länder/Regionen Knoten",
+              "list": "✓ Unbegrenzte Gerätezahl\n✓ 3000GB Datenverkehr/unbegrenzte Zeit\n✓ Inländischer hochwertiger Hochgeschwindigkeits-Transit-Zugang\n✓ Spitzenbandbreite: 1000 Mbps unbegrenzt\n✓ Exzellente Streaming-Entsperrung & ChatGPT-Entsperrung\n✓ Länder/Regionen: Hongkong, Taiwan, Japan, USA, Singapur, Südkorea\n✓ Nischen-Länder/Regionen IP: Großbritannien, Australien, Antarktis, Nordkorea\n✓ Benachrichtigungskanal-Gruppe & Arbeitsauftrag-Kundensupport\n✗ Missbrauch beim Teilen nicht erlaubt, bei Entdeckung Konto gesperrt\n✗ Nur Nutzung in Festlandchina garantiert\n✗ Sonderprodukt, keine Rückgabe-Richtlinie, bitte vorsichtig bestellen",
               "title": "Paketfunktionen"
             },
-            "name": "Rocket 1000 GB",
-            "price": "489",
-            "priceTime": "dauerhaft",
-            "sid": "10"
+            "name": "Sorgenfrei Datenpaket|Groß",
+            "price": "218.00",
+            "priceTime": "einmalig",
+            "sid": "11"
           }
         },
         "switch": {
@@ -343,24 +343,24 @@
   "login": {
     "description": "Hochgeschwindigkeitsnetzwerk, das die Welt abdeckt",
     "email": {
-      "placeholder": "Bitte geben Sie Ihre E -Mail -Adresse ein",
+      "placeholder": "Bitte geben Sie Ihre E-Mail-Adresse ein",
       "rules": {
-        "required": "Bitte geben Sie die richtige E -Mail -Adresse ein"
+        "required": "Bitte geben Sie die richtige E-Mail-Adresse ein"
       }
     },
     "password": {
       "placeholder": "Bitte geben Sie Ihr Passwort ein",
       "rules": {
-        "min": "Passwortlänge beträgt mindestens 8 Ziffern",
+        "min": "Die Passwortlänge beträgt mindestens 8 Ziffern",
         "required": "Bitte geben Sie Ihr Passwort ein"
       }
     },
-    "register": "Haben Sie noch keinen Account? Klicken Sie hier, um sich zu registrieren",
-    "remember": "Denken Sie an das Passwort",
-    "reset": "das Passwort vergessen?",
-    "submit": "Einloggen",
+    "register": "Haben Sie noch kein Konto? Klicken Sie, um sich zu registrieren",
+    "remember": "Erinnere dich an das Passwort",
+    "reset": "Passwort vergessen?",
+    "submit": "Anmeldung",
     "success": "Erfolgreich anmelden",
-    "title": "Melden Sie sich bei Airbus an"
+    "title": "Melden Sie sich bei 布丁云 an"
   },
   "node": {
     "banner": {
@@ -532,14 +532,14 @@
   },
   "register": {
     "code": {
-      "button": "Überprüfungscode senden",
-      "placeholder": "Bitte geben Sie den E -Mail -Überprüfungscode ein"
+      "button": "Bestätigungscode senden",
+      "placeholder": "Bitte geben Sie den E-Mail-Bestätigungscode ein"
     },
     "description": "Verbinden Sie die Welt von hier aus",
     "email": {
-      "placeholder": "Bitte geben Sie Ihre E -Mail -Adresse ein",
+      "placeholder": "Bitte geben Sie Ihre E-Mail-Adresse ein",
       "rules": {
-        "required": "Bitte geben Sie die richtige E -Mail -Adresse ein"
+        "required": "Bitte geben Sie die richtige E-Mail-Adresse ein"
       }
     },
     "invite": {
@@ -548,25 +548,25 @@
         "required": "Einladungscode muss eingegeben werden"
       }
     },
-    "login": "Haben Sie bereits ein Konto? Klicken Sie auf, um sich anzumelden",
+    "login": "Haben Sie bereits ein Konto? Klicken Sie, um sich anzumelden",
     "password": {
       "placeholder": "Bitte geben Sie Ihr Anmeldekennwort ein",
       "rules": {
-        "min": "Passwortlänge beträgt mindestens 8 Ziffern",
+        "min": "Die Passwortlänge beträgt mindestens 8 Ziffern",
         "required": "Bitte geben Sie Ihr Passwort ein"
       }
     },
     "password2": {
       "placeholder": "Bitte geben Sie Ihr Anmeldekennwort erneut ein",
       "rules": {
-        "min": "Passwortlänge beträgt mindestens 8 Ziffern",
+        "min": "Die Passwortlänge beträgt mindestens 8 Ziffern",
         "required": "Bitte geben Sie Ihr Anmeldekennwort erneut ein",
-        "same": "Die zweimal eingegebenen Passwörter sind inkonsistent"
+        "same": "Die zweimal eingegebenen Kennwörter sind inkonsistent"
       }
     },
-    "submit": "registrieren",
+    "submit": "Registrieren",
     "success": "Erfolgreich registriert",
-    "title": "Registrieren Sie Airbus"
+    "title": "Registrieren Sie 布丁云"
   },
   "reset": {
     "changePwdByEmail": "Passwort ändern (E -Mail -Überprüfung)",
@@ -589,7 +589,7 @@
       "label": "Geben Sie ein neues Passwort ein",
       "placeholder": "Bitte geben Sie Ihr neues Anmeldekennwort ein",
       "rules": {
-        "min": "Passwortlänge beträgt mindestens 8 Ziffern",
+        "min": "Die Passwortlänge beträgt mindestens 8 Ziffern",
         "required": "Bitte geben Sie Ihr Passwort ein"
       }
     },
@@ -597,16 +597,16 @@
       "label": "Bestätigen Sie das neue Passwort",
       "placeholder": "Bitte geben Sie das neue Anmeldekennwort erneut ein",
       "rules": {
-        "min": "Passwortlänge beträgt mindestens 8 Ziffern",
+        "min": "Die Passwortlänge beträgt mindestens 8 Ziffern",
         "required": "Bitte geben Sie das neue Anmeldekennwort erneut ein",
-        "same": "Die zweimal eingegebenen Passwörter sind inkonsistent"
+        "same": "Die zweimal eingegebenen Kennwörter sind inkonsistent"
       }
     },
     "passwordOld": {
       "label": "Geben Sie das ursprüngliche Passwort ein",
       "placeholder": "Bitte geben Sie Ihr ursprüngliches Login -Passwort ein",
       "rules": {
-        "min": "Passwortlänge beträgt mindestens 8 Ziffern",
+        "min": "Die Passwortlänge beträgt mindestens 8 Ziffern",
         "required": "Bitte geben Sie Ihr Passwort ein"
       }
     },

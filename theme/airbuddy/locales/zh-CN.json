@@ -580,7 +580,14 @@
     "title": "注册 布丁云"
   },
   "reset": {
+    "changePwdByEmail": "修改密码（邮箱验证）",
     "changePwdByOldPwd": "修改密码（旧密码验证）",
+    "code": {
+      "button": "发送验证码",
+      "label": "邮箱验证码",
+      "placeholder": "请输入邮箱验证码",
+      "success": "验证码发送成功至您的邮箱"
+    },
     "description": "重新设置您的登录密码",
     "email": {
       "placeholder": "请输入您的邮箱",

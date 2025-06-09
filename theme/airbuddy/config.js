@@ -35,7 +35,7 @@ window.CONFIG = {
 
     // Crisp 配置
     crisp: {
-        id: '', // Crisp ID
+        id: 'cf6acc26-fc09-4653-833c-7452bb71e19c', // Crisp ID
         enable: true, // 是否启用 Crisp 聊天窗口
     },
 
@@ -129,7 +129,7 @@ window.CONFIG = {
             matrix: true,
             nodes: true,
             privacy: true,
-            shop: false,
+            shop: true,
             service: true,
         }
     },
@@ -276,15 +276,15 @@ window.CONFIG = {
                 //     }
                 // },
                 // 面向新用户的弹窗
-                {
-                    toUser: 'newUser',
-                    code: 'HappyNewYear',
-                    title: '初次相见\n立即领券下单',
-                    cardComponent: 'VipCard',
-                    countdown: {
-                        effectiveTime: 48
-                    }
-                },
+                // {
+                //     toUser: 'newUser',
+                //     code: 'HappyNewYear',
+                //     title: '初次相见\n立即领券下单',
+                //     cardComponent: 'VipCard',
+                //     countdown: {
+                //         effectiveTime: 48
+                //     }
+                // },
                 // 面向已过期用户的弹窗
                 {
                     toUser: 'expiredUser',

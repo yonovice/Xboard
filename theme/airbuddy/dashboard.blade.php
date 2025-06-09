@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>AirBuddy Rocket</title>
+    <title>布丁云加速器</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link
       rel="icon"

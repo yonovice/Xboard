@@ -177,14 +177,37 @@ class OrderController extends Controller
             $order->handling_amount = (int) round(($order->total_amount * ($payment->handling_fee_percent / 100)) + $payment->handling_fee_fixed);
         }
         $order->payment_id = $method;
-        if (!$order->save())
-            return $this->fail([400, __('Request failed, please try again later')]);
-        $result = $paymentService->pay([
+        
+        // 获取 Referer 请求头
+        $referer = $request->header('referer');
+        $refererDomain = null;
+        
+        // 检查 Referer 是否存在
+        if ($referer) {
+            // 解析 Referer URL 并重建只包含协议和主机名的 URL
+            $parsedUrl = parse_url($referer);
+            $refererDomain = isset($parsedUrl['scheme']) && isset($parsedUrl['host']) 
+                ? $parsedUrl['scheme'] . '://' . $parsedUrl['host'] 
+                : null;
+        }
+        
+        if (!$order->save()) abort(500, __('Request failed, please try again later'));
+        
+        // 构建支付请求参数
+        $payParams = [
             'trade_no' => $tradeNo,
             'total_amount' => isset($order->handling_amount) ? ($order->total_amount + $order->handling_amount) : $order->total_amount,
             'user_id' => $order->user_id,
             'stripe_token' => $request->input('token')
-        ]);
+        ];
+
+        // 如果 $refererDomain 存在，添加 refer 参数
+        if ($refererDomain) {
+            $payParams['refer'] = $refererDomain;
+        }
+
+        $result = $paymentService->pay($payParams);
+        
         return response([
             'type' => $result['type'],
             'data' => $result['data']

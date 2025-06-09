@@ -40,8 +40,7 @@ class SGEPay {
             'money' => $order['total_amount'] / 100,
             'name' => $order['trade_no'],
             'notify_url' => $order['notify_url'],
-            'return_url' => 'https://budingyun.com',
-            //'return_url' => $order['return_url'],
+            'return_url' => $order['return_url'],
             'out_trade_no' => $order['trade_no'],
             'pid' => $this->config['pid'],
 			'type' => $this->config['type']

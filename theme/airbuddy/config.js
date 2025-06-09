@@ -10,7 +10,7 @@
  */
 window.CONFIG = {
     // 通用配置
-    logo: 'https://github.com/budingyun123/picx-images-hosting/raw/master/App/IMAGE-2025-06-09-00:08:21.2obry9scyb.webp', // 网站logo
+    logo: 'https://github.com/budingyun123/picx-images-hosting/raw/master/App/logo.7lk8tf4jw8.webp', // 网站logo
     title: "布丁云", // 网站标题.
 
     // 主题配置
@@ -86,8 +86,8 @@ window.CONFIG = {
 
     // 全局用户配置
     user: {
-        adminAvatar: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Admin-Image.3nrslt4k8f.webp', // 管理员头像，工单对话中显示的管理回复头像
-        userAvatar: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Avatar-Image.pfiiawar3.webp', // 用户头像，适用于全局所有页面中显示的用户头像，即工单对话中显示的用户头像
+        adminAvatar: '', // 管理员头像，工单对话中显示的管理回复头像
+        userAvatar: '', // 用户头像，适用于全局所有页面中显示的用户头像，即工单对话中显示的用户头像
         // 用户阈值配置，用户阈值会影响到首页的欢迎卡片和公告模块中界定当前用户属于什么状态，用户状态一共有如下几种：
         // - 新用户：可以在下面 newUserTime 设定阈值，如设置 48，则代表注册时间 48 小时都还属于新用户
         // - 从未订阅过的用户：既不是新用户、也从来没买过的订阅套餐的用户
@@ -233,7 +233,7 @@ window.CONFIG = {
     // 邀请配置
     invite: {
         bannerDisplay: true, // 是否显示首页的邀请 banner
-        bannerImg: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/3d-element-cash.26lnk20fhk.1e8us41zod.webp',
+        bannerImg: 'https://github.com/budingyun123/picx-images-hosting/raw/master/budingHome/Tennis-girl.77dr1skahl.58hmc8x97z.webp',
         inviteCodeUrlPrefix: window.location.origin, // 邀请码链接前缀，默认是当前网站的域名
     },
 

@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link
       rel="icon"
-      type="image/svg+xml"
-      href="/theme/{{$theme}}/assets/C4MjgjTg.svg"
+      type="image/webp"
+      href="/theme/{{$theme}}/assets/favicon.webp"
     />
     <link
       rel="preload"

@@ -35,7 +35,7 @@ window.CONFIG = {
 
     // Crisp 配置
     crisp: {
-        id: 'cf6acc26-fc09-4653-833c-7452bb71e19c', // Crisp ID
+        id: '3fcc13db-1d61-4091-bc46-b8a5cadb22d6', // Crisp ID
         enable: true, // 是否启用 Crisp 聊天窗口
     },
 
@@ -86,8 +86,8 @@ window.CONFIG = {
 
     // 全局用户配置
     user: {
-        adminAvatar: '', // 管理员头像，工单对话中显示的管理回复头像
-        userAvatar: '', // 用户头像，适用于全局所有页面中显示的用户头像，即工单对话中显示的用户头像
+        adminAvatar: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Admin-Image.3nrslt4k8f.webp', // 管理员头像，工单对话中显示的管理回复头像
+        userAvatar: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Avatar-Image.pfiiawar3.webp', // 用户头像，适用于全局所有页面中显示的用户头像，即工单对话中显示的用户头像
         // 用户阈值配置，用户阈值会影响到首页的欢迎卡片和公告模块中界定当前用户属于什么状态，用户状态一共有如下几种：
         // - 新用户：可以在下面 newUserTime 设定阈值，如设置 48，则代表注册时间 48 小时都还属于新用户
         // - 从未订阅过的用户：既不是新用户、也从来没买过的订阅套餐的用户

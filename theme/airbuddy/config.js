@@ -11,7 +11,7 @@
 window.CONFIG = {
     // 通用配置
     logo: 'https://github.com/budingyun123/picx-images-hosting/raw/master/App/logo.7lk8tf4jw8.webp', // 网站logo
-    title: "布丁云", // 网站标题.
+    title: "布丁云加速器", // 网站标题
 
     // 主题配置
     theme: {

@@ -416,5 +416,5 @@ window.CONFIG = {
         password: '88236475', // 加密请求的密码
         encrypt_response: true, // 是否加密响应数据，如果启用，则响应数据会被加密，前提是后端服务支持加密响应
     },
-    api: 'https://api-direct.budingyun.lol'
+    api: 'https://api-sub.budingyun.lol'
 }

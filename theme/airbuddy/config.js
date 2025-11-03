@@ -416,5 +416,15 @@ window.CONFIG = {
         password: '88236475', // 加密请求的密码
         encrypt_response: true, // 是否加密响应数据，如果启用，则响应数据会被加密，前提是后端服务支持加密响应
     },
+    quick: {
+        elementImg: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/earth_purple.70akxwkmcb.webp', // 元素图片
+        backgroundImg: 'https://github.com/dc8683/picx-images-hosting/raw/master/docs/pink-purple-gardient.58hm30cjx7.webp', // 背景图片
+        planTypeSwitch: true, // 是否显示周期/按量套餐切换按钮
+        planExclude: [], // 套餐排除列表
+        password: {
+            random: true, // 随机生成密码
+            custom: true, // 允许用户自定义输入密码
+        }
+    },
     api: 'https://api-sub.budingyun.lol'
 }
